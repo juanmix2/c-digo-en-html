@@ -1,0 +1,54 @@
+notas del  sabado 10 9 2022------------------
+
+agregar fontawsome al codigo html del index
+las indicaciones y como adquirir la url estan al 
+comienzo del video,
+debes ir a fontawsome.com ingresar tu email en 
+el cuadro de dialogo y ahi recibiras instruciones para
+obtener el link del script que deberas pegar en la seccion
+<!--fontawsome--> del index.html, el link del script
+ se veria algo asi 
+<script src="https://kit.fontawesome.com/c4a697581b.js" crossorigin="anonymous"></script>
+yo lo marque como comentario porque pensé que deberia ser su uso compartido
+ lo que daño la pagina.
+asi que debes probar un código nuevo
+
+notas del domingo 18 9 2022-------------------
+
+en la seccion "head" del index.html el script de fontawsome esta 
+entre comentarios <!-- comentario--> para probar los iconos 
+mas adelante agregaremos las fotos originales pero por ahora se puede probar con
+imagenes de internet de algun sitio de fotos de gimnasios, las imagenes tienen nombres como: 
+about, class1, class2, class3, hero, image1, image2, image3, logo
+las imagenes son gratuitas de pexels.com
+
+algunos cambios que difieren del código mostrado en el video, en la 
+sección "about" del documento css
+
+.about-img{
+    width:100%;
+    display:block;
+    height:500px;
+    width:400px;
+}
+
+la seccion del header donde se encuentra el menu de navegación del sitio
+necesita ser modificado para que "el menu de navegación quede fijo y sea 
+una linea
+
+    .nav-container{
+background:transparent;
+flex: 0 0 auto;
+    }
+hacer que el logo este incluido en la barra de navegacion y que esta se vea
+"verde agua" transparente para eso deberia probar algunas de estos
+atributos
+    background-color:#03b4ab;;
+    padding:20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:baseline;
+
+
+
